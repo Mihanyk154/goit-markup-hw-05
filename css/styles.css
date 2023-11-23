@@ -557,6 +557,7 @@ p {
 
 .icon-btn {
   margin-left: 16px;
+  fill: #ffffff;
 }
 
 /*MODAL WINDOW*/
@@ -656,6 +657,6 @@ p {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.icon-input:focus{
+input:focus + svg{
   fill: #4D5AE5;
 }
