@@ -423,13 +423,23 @@
 
         <div class="container-comment">
           <label for="user-comment" class="label">Comment</label>
-          <textarea class="text-comment" name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input"></textarea>
+          <textarea class="text-comment" name="user-comment" id="user-comment" cols="30" rows="10"
+            placeholder="Text input"></textarea>
         </div>
 
         <div class="check-container">
           <input class="check visually-hidden" type="checkbox" id="user-privacy" value="true" name="user-privacy">
+          <label class="check-text" for="user-privacy">
+            <span class="check-bord">
+              <svg class="click" width="10" height="8">
+                <use href="/images/icons.svg#icon-click"></use>
+              </svg>
+            </span>I accept the terms and conditions of the <a class="check-link-text" href="">Privacy
+              Policy</a></label>
 
         </div>
+
+        <button class="form-button" type="">Send</button>
 
       </form>
     </div>
